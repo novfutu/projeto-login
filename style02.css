@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 728px) and (max-width: 992px) {
+    body, html{
+        height: 100vh;
+        width: 100vw;
+        background: url(imagens/img\ 04.jpg) no-repeat;
+        background-size: cover;
+        background-position: right center;
+    }
+    section#login{
+        height: 400px;
+        width: 720px;
+    }
+
+    section#login > div#imagem { 
+        float: left;
+        height: 400px;
+        width: 400px;
+    }
+    
+    div.campo > input {
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    body, html{
+        height: 100vh;
+        width: 100vw;
+        background: url(imagens/img\ 06.jpg) no-repeat right center;
+        background-size: cover;
+    }
+
+    section#login{
+        height: 400px;
+        width: 900px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        height: 400px
+    }
+
+    div.campo > input {
+        width: 40%;
+    }
+}
